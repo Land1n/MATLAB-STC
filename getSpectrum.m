@@ -1,6 +1,6 @@
 function [frequencies, amplitudes] = compute_spectrum(signal, sampling_rate)
 % compute_spectrum - вычисляет спектр сигнала с центровкой нулевой частоты
-%
+
 % Входные параметры:
 %   signal        - входной одномерный сигнал (вектор)
 %   sampling_rate - частота дискретизации (Гц), по умолчанию 1.0
