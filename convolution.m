@@ -1,6 +1,6 @@
 function [shifts, conv_norm] = convolution(firstSignal, timeline1, secondSignal, timeline2)
 % convolution - вычисляет свёртку двух сигналов с временным сдвигом
-%
+
 % Входные параметры:
 %   firstSignal  - первый сигнал (вектор)
 %   timeline1    - временная ось первого сигнала (вектор, монотонно возрастающий)
