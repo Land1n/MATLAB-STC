@@ -13,6 +13,7 @@ function [frequencies, amplitudes] = compute_spectrum(signal, sampling_rate)
         sampling_rate = 1.0;
     end
 
+
     n = length(signal);
     fft_result = fft(signal);
     amplitudes = abs(fft_result) / n;
