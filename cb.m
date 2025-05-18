@@ -89,3 +89,4 @@ function plotSpectrumWithNegativeFrequencies(signal, fs)
     xlim([-fs/2 fs/2]);
     grid on;
 end
+
