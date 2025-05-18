@@ -163,7 +163,7 @@ harmonic1 = amplitude * sin(2*pi*frequency*t + phase);
 harmonic2 = amplitude * sin(2*pi*frequency*t + phase + pi);
 
 signal = harmonic1;
-
+ 
 for i = 0:length_code-1
     start_seg = i * period;
     end_seg = start_seg + period;
